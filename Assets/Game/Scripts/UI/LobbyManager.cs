@@ -278,4 +278,10 @@ public class LobbyManager : MonoBehaviour
         SceneManager.LoadScene("Campain", LoadSceneMode.Single);
     }
 
+    public void buttonOnClickCity()
+    {
+        menuCampain.SetActive(false);
+        SceneManager.LoadScene("City", LoadSceneMode.Single);
+    }
+
 }

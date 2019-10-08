@@ -60,7 +60,7 @@ public class MultiIdiomaManager : MonoBehaviour
                 texts.Add(language + "Level", "Nível");
                 
                 //################# LOBBY #######################################################################################
-                texts.Add(language + "MAINCAMERA_NAMEGAME", "ESCRAVO DE VAMPIRO TACTICS");
+                texts.Add(language + "MAINCAMERA_NAMEGAME", "ESCRAVO DE VAMPIRO");
 
                 texts.Add(language + "MENU_NEW", "NOVO");
                 texts.Add(language + "MENU_LOAD", "CARREGAR");
@@ -81,6 +81,7 @@ public class MultiIdiomaManager : MonoBehaviour
                 texts.Add(language + "START_DROPHUMANS", "HUMANOS DROPÁVEIS");
                 texts.Add(language + "START_CAMPAIN", "CAMPANHA");
                 texts.Add(language + "START_MENU", "MENU");
+                texts.Add(language + "START_CITY", "CIDADE");
 
                 texts.Add(language + "MENUHUMANS_LISTHUMANS", "LISTA DE HUMANOS");
                 texts.Add(language + "MENUHUMANS_NAME", "Nome");
@@ -154,7 +155,7 @@ public class MultiIdiomaManager : MonoBehaviour
                 texts.Add(language + "Level", "Level");
 
                 //################# LOBBY #######################################################################################
-                texts.Add(language + "MAINCAMERA_NAMEGAME", "VAMPIRE SLAVE TACTICS");
+                texts.Add(language + "MAINCAMERA_NAMEGAME", "VAMPIRE SLAVE");
 
                 texts.Add(language + "MENU_NEW", "NEW");
                 texts.Add(language + "MENU_LOAD", "LOAD");
@@ -175,6 +176,7 @@ public class MultiIdiomaManager : MonoBehaviour
                 texts.Add(language + "START_DROPHUMANS", "DROP HUMANS");
                 texts.Add(language + "START_CAMPAIN", "CAMPAIN");
                 texts.Add(language + "START_MENU", "MENU");
+                texts.Add(language + "START_CITY", "CITY");
 
                 texts.Add(language + "MENUHUMANS_LISTHUMANS", "LIST HUMANS");
                 texts.Add(language + "MENUHUMANS_NAME", "Name");
@@ -248,7 +250,7 @@ public class MultiIdiomaManager : MonoBehaviour
                 texts.Add(language + "Level", "Niveau");
 
                 //################# LOBBY #######################################################################################
-                texts.Add(language + "MAINCAMERA_NAMEGAME", "VAMPIRE SLAVE TACTICS");
+                texts.Add(language + "MAINCAMERA_NAMEGAME", "VAMPIRE SLAVE");
 
                 texts.Add(language + "MENU_NEW", "NOUVEAU");
                 texts.Add(language + "MENU_LOAD", "CHARGE");
@@ -269,6 +271,7 @@ public class MultiIdiomaManager : MonoBehaviour
                 texts.Add(language + "START_DROPHUMANS", "DROP HUMANS");
                 texts.Add(language + "START_CAMPAIN", "CAMPAGNE");
                 texts.Add(language + "START_MENU", "MENU");
+                texts.Add(language + "START_CITY", "VILLE");
 
                 texts.Add(language + "MENUHUMANS_LISTHUMANS", "LISTE DES HUMAINS");
                 texts.Add(language + "MENUHUMANS_NAME", "Nom");
