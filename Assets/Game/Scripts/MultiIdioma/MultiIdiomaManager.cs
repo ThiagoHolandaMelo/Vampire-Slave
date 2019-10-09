@@ -82,6 +82,7 @@ public class MultiIdiomaManager : MonoBehaviour
                 texts.Add(language + "START_CAMPAIN", "CAMPANHA");
                 texts.Add(language + "START_MENU", "MENU");
                 texts.Add(language + "START_CITY", "CIDADE");
+                texts.Add(language + "START_ASYLUM", "ASILO"); 
 
                 texts.Add(language + "MENUHUMANS_LISTHUMANS", "LISTA DE HUMANOS");
                 texts.Add(language + "MENUHUMANS_NAME", "Nome");
@@ -177,6 +178,7 @@ public class MultiIdiomaManager : MonoBehaviour
                 texts.Add(language + "START_CAMPAIN", "CAMPAIN");
                 texts.Add(language + "START_MENU", "MENU");
                 texts.Add(language + "START_CITY", "CITY");
+                texts.Add(language + "START_ASYLUM", "ASYLUM");
 
                 texts.Add(language + "MENUHUMANS_LISTHUMANS", "LIST HUMANS");
                 texts.Add(language + "MENUHUMANS_NAME", "Name");
@@ -272,6 +274,7 @@ public class MultiIdiomaManager : MonoBehaviour
                 texts.Add(language + "START_CAMPAIN", "CAMPAGNE");
                 texts.Add(language + "START_MENU", "MENU");
                 texts.Add(language + "START_CITY", "VILLE");
+                texts.Add(language + "START_ASYLUM", "ASILE");
 
                 texts.Add(language + "MENUHUMANS_LISTHUMANS", "LISTE DES HUMAINS");
                 texts.Add(language + "MENUHUMANS_NAME", "Nom");
