@@ -43,8 +43,8 @@ MonoBehaviour:
   ambientOcclusion:
     m_Enabled: 1
     m_Settings:
-      intensity: 2.03
-      radius: 3.14
+      intensity: 0.66
+      radius: 1.02
       sampleCount: 10
       downsampling: 1
       forceForwardCompatibility: 0
@@ -84,7 +84,7 @@ MonoBehaviour:
       sampleCount: 32
       frameBlending: 0
   eyeAdaptation:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
       lowPercent: 45
       highPercent: 95

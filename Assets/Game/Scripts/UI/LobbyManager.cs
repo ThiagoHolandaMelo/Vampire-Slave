@@ -83,7 +83,7 @@ public class LobbyManager : MonoBehaviour
     {
         player = null;
 
-        listPerson_Content.GetComponent<ContentListPersons>().AtualizaListaPersons();
+        listPerson_Content.GetComponent<ContentListUsers>().AtualizaListaPersons();
 
         AtivarMenu(menuLoad);        
     }

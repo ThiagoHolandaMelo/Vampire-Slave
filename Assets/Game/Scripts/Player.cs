@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour {
 
@@ -68,6 +69,7 @@ public class Player : MonoBehaviour {
         {
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;        
+            SceneManager.LoadScene("Lobby", LoadSceneMode.Single);
         }
 
         CalculateMovement();
