@@ -77,12 +77,13 @@ public class MultiIdiomaManager : MonoBehaviour
                 texts.Add(language + "MENUCREDITS_DEVELOPER", "Desenvolvedor: Thiago Melo\nContato: thiagomelo@edu.unifor.br");
                 texts.Add(language + "MENUCREDITS_BACK", "VOLTAR");
 
-                texts.Add(language + "START_NAMEGAME", "VAMPIRE SLAVE TACTICS");
+                texts.Add(language + "START_NAMEGAME", "VAMPIRE SLAVE");
                 texts.Add(language + "START_DROPHUMANS", "HUMANOS DROPÁVEIS");
                 texts.Add(language + "START_CAMPAIN", "CAMPANHA");
                 texts.Add(language + "START_MENU", "MENU");
                 texts.Add(language + "START_CITY", "CIDADE");
-                texts.Add(language + "START_ASYLUM", "ASILO"); 
+                texts.Add(language + "START_ASYLUM", "ASILO");
+                texts.Add(language + "START_HOSPITAL", "HOSPITAL"); 
 
                 texts.Add(language + "MENUHUMANS_LISTHUMANS", "LISTA DE HUMANOS");
                 texts.Add(language + "MENUHUMANS_NAME", "Nome");
@@ -173,12 +174,13 @@ public class MultiIdiomaManager : MonoBehaviour
                 texts.Add(language + "MENUCREDITS_DEVELOPER", "Developer: Thiago Melo\nContact: thiagomelo@edu.unifor.br");
                 texts.Add(language + "MENUCREDITS_BACK", "BACK");
 
-                texts.Add(language + "START_NAMEGAME", "VAMPIRE SLAVE TACTICS");
+                texts.Add(language + "START_NAMEGAME", "VAMPIRE SLAVE");
                 texts.Add(language + "START_DROPHUMANS", "DROP HUMANS");
                 texts.Add(language + "START_CAMPAIN", "CAMPAIN");
                 texts.Add(language + "START_MENU", "MENU");
                 texts.Add(language + "START_CITY", "CITY");
                 texts.Add(language + "START_ASYLUM", "ASYLUM");
+                texts.Add(language + "START_HOSPITAL", "HOSPITAL");
 
                 texts.Add(language + "MENUHUMANS_LISTHUMANS", "LIST HUMANS");
                 texts.Add(language + "MENUHUMANS_NAME", "Name");
@@ -269,12 +271,13 @@ public class MultiIdiomaManager : MonoBehaviour
                 texts.Add(language + "MENUCREDITS_DEVELOPER", "Développeuse: Thiago Melo\nContact: thiagomelo@edu.unifor.br");
                 texts.Add(language + "MENUCREDITS_BACK", "RETOUR");
 
-                texts.Add(language + "START_NAMEGAME", "VAMPIRE SLAVE TACTICS");
+                texts.Add(language + "START_NAMEGAME", "VAMPIRE SLAVE");
                 texts.Add(language + "START_DROPHUMANS", "DROP HUMANS");
                 texts.Add(language + "START_CAMPAIN", "CAMPAGNE");
                 texts.Add(language + "START_MENU", "MENU");
                 texts.Add(language + "START_CITY", "VILLE");
                 texts.Add(language + "START_ASYLUM", "ASILE");
+                texts.Add(language + "START_HOSPITAL", "HOSPITAL");
 
                 texts.Add(language + "MENUHUMANS_LISTHUMANS", "LISTE DES HUMAINS");
                 texts.Add(language + "MENUHUMANS_NAME", "Nom");

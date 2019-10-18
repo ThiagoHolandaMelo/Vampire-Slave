@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class Player : MonoBehaviour {
 
     private CharacterController _controller;
@@ -28,6 +29,12 @@ public class Player : MonoBehaviour {
 
     public bool possuiMoeda = false;
     public bool weaponAtivo = false;
+
+    public AudioClip footstepSound;
+    public float footsFrequency = 0.7f;
+
+    float fr = 0f;
+    bool podeMoverParaCima = true;
 
     [SerializeField]
     private GameObject _weapon;
@@ -109,7 +116,7 @@ public class Player : MonoBehaviour {
     {
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
-
+        
         Vector3 direction = new Vector3(horizontalInput, 0, verticalInput);
         Vector3 velocity = direction * _speed;
 
@@ -120,6 +127,25 @@ public class Player : MonoBehaviour {
         velocity = transform.TransformDirection(velocity);
 
         _controller.Move(velocity * Time.deltaTime);
+
+        if (horizontalInput != 0 || verticalInput != 0)
+        {
+            fr += Time.deltaTime;
+
+            while (fr >= footsFrequency)
+            {
+                fr = 0f;
+
+                playFootstepSound();
+            }
+
+            if(podeMoverParaCima)
+            {
+                StartCoroutine(MoverParaCima());                
+            }
+            
+        }
+
     }
 
     IEnumerator CoroutineRecarregando()
@@ -137,5 +163,19 @@ public class Player : MonoBehaviour {
         currentArmmo = maxArmmo;
         //_uiManager.UpdateAmmo(currentArmmo);
         _weapon.SetActive(weaponAtivo);
+    }
+
+    public void playFootstepSound()
+    {
+        GetComponent<AudioSource>().PlayOneShot(footstepSound);
+    }
+
+    IEnumerator MoverParaCima()
+    {
+        podeMoverParaCima = false;
+        yield return new WaitForSeconds(0.2f);
+        transform.position += Vector3.up * 1.5f * Time.deltaTime;
+        yield return new WaitForSeconds(0.35f);
+        podeMoverParaCima = true;
     }
 }
